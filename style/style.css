@@ -4,8 +4,21 @@
 section{
     text-align: center;
 }
+#error-data{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    
+}
+.p{
+    width: 500px;
+    background-color: rgba(238, 15, 15, 0.372);
+    color: rgb(58, 21, 21);
+    padding: 10px 0;
+}
 h1{
     font-size: 32px;
+    margin-top: 5px;
     margin-bottom: 16px;
 }
 .add-div{
@@ -14,6 +27,7 @@ h1{
 }
 input{
     font-size: 20px;
+    width: 500px;
     padding: 5px 10px;
     font-weight: 100;
     border: 2px solid var(--main);
@@ -38,14 +52,13 @@ input{
 #clear-btn{
     font-size: 20px;
     padding: 5px 10px;
-    margin-top: 40px;
     border: 2px solid var(--main);
     border-radius: 5px;
     color: var(--main);
     cursor: pointer;
 }
 #adding-data{
-    margin: 20px 0;
+    margin: 40px 0;
 }
 #clear-btn:hover{
     color: black;
