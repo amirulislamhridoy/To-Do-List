@@ -95,3 +95,24 @@ input:focus{
     color: black;
     background-color: var(--main);
 }
+
+
+@media screen and (max-width: 1000px){
+    section{
+        width: 700px;
+    }
+    input{
+        width: 580px;
+    }
+}
+@media screen and (max-width: 800px){
+    section{
+        width: 80%;
+    }
+    input{
+        width: 80%;
+    }
+    .add-div button{
+        width: 90px;
+    }
+}
