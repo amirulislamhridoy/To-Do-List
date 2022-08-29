@@ -34,9 +34,13 @@ input{
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
     border-right: 0;
+    z-index: 2;
+}
+input:focus{
+    outline: 3px solid rgb(143, 205, 51);
 }
 .add-div button{
-    font-size: 20px;
+    font-size: 16px;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
     background-color: transparent;
@@ -44,18 +48,24 @@ input{
     color: var(--main);
     font-weight: 100;
 }
+.add-div button:focus{
+    outline: 3px solid rgb(143, 205, 51);
+}
 .add-div button:hover{
     background-color: var(--main);
     color: black;
     cursor: pointer;
 }
 #clear-btn{
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 16px;
+    padding: 8px 14px;
     border: 2px solid var(--main);
     border-radius: 5px;
     color: var(--main);
     cursor: pointer;
+}
+#clear-btn:focus{
+    outline: 3px solid rgb(143, 205, 51);
 }
 #adding-data{
     margin: 40px 0;
