@@ -1,7 +1,12 @@
 :root{
     --main: rgb(74, 144, 172);
 }
+body{
+    display: flex;
+    justify-content: center;
+}
 section{
+    width: 800px;
     text-align: center;
 }
 #error-data{
@@ -11,7 +16,6 @@ section{
     
 }
 .p{
-    width: 500px;
     background-color: rgba(238, 15, 15, 0.372);
     color: rgb(58, 21, 21);
     padding: 10px 0;
@@ -27,7 +31,7 @@ h1{
 }
 input{
     font-size: 20px;
-    width: 500px;
+    width: 650px;
     padding: 5px 10px;
     font-weight: 100;
     border: 2px solid var(--main);
@@ -69,6 +73,23 @@ input:focus{
 }
 #adding-data{
     margin: 40px 0;
+}
+.adding-data-p{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.span{
+    font-size: 20px;
+}
+.span2 i{
+    margin: 0 10px;
+    cursor: pointer;
+}
+.x-btn{
+    color: red;
+    cursor: pointer;
+    margin: 0 10px;
 }
 #clear-btn:hover{
     color: black;
